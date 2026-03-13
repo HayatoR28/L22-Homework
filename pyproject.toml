@@ -1,0 +1,15 @@
+[project]
+name = "pa4-weather-dashboard"
+version = "0.1.0"
+description = "CS 2850 PA4 Streamlit dashboard using OpenWeatherMap"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.30",
+    "pandas>=2.0",
+    "requests>=2.31",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
